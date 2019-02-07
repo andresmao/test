@@ -71,7 +71,6 @@ import pandas as pd
 import pandasglue as pg
 
 #Parameters
-sql_query = "SELECT * FROM table_name LIMIT 20" 
 database = "DB_NAME"
 table_name = "TB_NAME"
 s3_path = "s3://bucket-url/"
