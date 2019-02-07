@@ -5,7 +5,10 @@
 
 # Pandas Glue
 
-One Paragraph of project description goes here
+[Amazon Glue](https://aws.amazon.com/glue/) is an AWS simple, flexible, and cost-effective ETL service and [Pandas](https://pandas.pydata.org/) provides high-performance, easy-to-use data structures and data analysis tools for the Python programming language. 
+
+The goal of this library is provide a way to easily integrate Pandas with the AWS Glue service to allow write DataFrames content directly in the Glue Data Catalog and execute Athena queries returning the result in a Pandas Data Frame.
+
 
 ## Getting Started
 
