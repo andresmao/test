@@ -1,4 +1,7 @@
-![alt text](https://github.com/andresmao/test/blob/master/pandas_glue_logo.png)
+
+<p align="center">
+  <img src="https://github.com/andresmao/test/blob/master/pandas_glue_logo.png" width="200" title="Pandas Glue">
+</p>
 
 # Pandas Glue
 
