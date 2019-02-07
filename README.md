@@ -19,9 +19,6 @@ It could be used within Lambda functions and Glue scripts.
   <img src="https://github.com/andresmao/test/blob/master/PandasGlue_ETL_workflow.png" width="700"  title="ETL Workflow">
 </p>
 
-
-
-
 ### Prerequisites
 
 Mandatory
@@ -35,21 +32,9 @@ pip install pyarrow
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
 ```
-Give the example
+pip install pandasglue
 ```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
