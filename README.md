@@ -39,7 +39,9 @@ pip install pandasglue
 
 ## Usage 
 
-**Read read_glue()**
+**Read method**
+
+***read_glue()***
 
 To retrieve the result of an Athena Query in a Pandas DataFrame.
 
