@@ -91,7 +91,7 @@ pg.write_glue(df, database, table_name, s3_path, partition_cols=['city'])
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) - (AWS) SDK for Python, which allows Python developers to write software that makes use of Amazon services like S3 and EC2.
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
