@@ -90,7 +90,10 @@ pg.write_glue(df, database, table_name, s3_path, partition_cols=['city'])
 ```
 ***Parameters list:***
 
-text here
+* Param 1: explanation
+* Param 2: explanation
+* Param 3: explanation
+* Param 4: explanation
 
 
 ## Built With
