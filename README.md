@@ -9,6 +9,9 @@
 
 The goal of this library is provide a way to easily integrate Pandas with the AWS Glue service to allow write DataFrames content directly in the Glue Data Catalog and execute Athena queries returning the result in a Pandas Data Frame.
 
+## Use cases
+
+Lorem ipsum et dolore
 
 ## Getting Started
 
