@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://github.com/andresmao/test/blob/master/pandas_glue_logo_2.png" width="350" title="Pandas Glue">
+  <img src="https://github.com/andresmao/test/blob/master/pandas_glue_logo_2.png" width="450" title="Pandas Glue">
 </p>
 
 # Pandas Glue
