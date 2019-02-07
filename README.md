@@ -16,7 +16,7 @@ This package is recommended for ETL purposes which loads and transforms small to
 It could be used within [Lambda functions](https://docs.aws.amazon.com/lambda/latest/dg/lambda-introduction-function.html), [Glue scripts](https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-python.html), [EC2](https://aws.amazon.com/ec2/) instances or any other infrastucture resources.
 
 <p align="center">
-  <img src="https://github.com/andresmao/test/blob/master/PandasGlue_ETL_workflow.png" width="700"  title="ETL Workflow">
+  <img src="https://github.com/andresmao/test/blob/master/Pandas_glue_workflow2.png" width="700"  title="ETL Workflow">
 </p>
 
 ### Prerequisites
