@@ -13,6 +13,12 @@ The goal of this package is to provide an easy way to integrate Pandas with the 
 
 This package is recommended for ETL purposes which loads and transforms small to medium size datasets without requiring to create Spark jobs. Saving costs in the operation. 
 
+<p align="center">
+  <img src="https://github.com/andresmao/test/blob/master/PandasGlue_ETL_workflow.png" title="ETL Workflow">
+</p>
+
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
