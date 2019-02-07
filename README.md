@@ -41,7 +41,7 @@ pip install pandasglue
 
 To retrieve the result of an Athena Query in a Pandas DataFrame.
 
-Example:
+Quick example:
 
 ```
 import pandas as pd
@@ -64,40 +64,30 @@ print(df)
 
 Convert a given Pandas Dataframe to a Glue Parquet table
 
+Quick example:
+
 ```
 import pandas as pd
 import pandasglue as pg
 
 #Parameters
 sql_query = "SELECT * FROM table_name LIMIT 20" 
-db_name = "DB_NAME"
-s3_output_bucket = "s3://bucket-url/"
+database = "DB_NAME"
+table_name = "TB_NAME"
+s3_path = "s3://bucket-url/"
 
 #Sample DF
-source_data = {'first_name': ['Sarah', 'Angela', 'Know', 'Sara', 'Cat'], 
-        'last_name': ['Mornig', 'Jaker', 'Alom', 'Ormon', 'Koozer'],
+source_data = {'name': ['Sarah', 'Renata', 'Erika', 'Fernanda', 'Diana'], 
+        'city': ['Seattle', 'Sao Paulo', 'Seattle', 'Santiago', 'Lima'],
          'test_score': [82, 52, 56, 234, 254]}
          
-df = pd.DataFrame(source_data, columns = ['first_name', 'last_name', 'test_score'])
+df = pd.DataFrame(source_data, columns = ['name', 'city', 'test_score'])
 
 
-df = pg.write_glue(df, database, table, path, partition_cols=[]):
+pg.write_glue(df, database, table_name, s3_path, partition_cols=['city'])
 
-print(df)
-```
-
-
-### And coding style tests
-
-Explain what these tests test and why
 
 ```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
@@ -108,10 +98,6 @@ Add additional notes about how to deploy this on a live system
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
