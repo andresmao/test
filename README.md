@@ -105,9 +105,9 @@ Please read [CONTRIBUTING.md](https://gist.github.com/) for details on our code 
 
 ## Authors
 
-* **Contributor 1* - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-* **Contributor 2* - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-* **Contributor 3* - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Contributor 1* - *Initial work* - [Profile link](https://github.com/PurpleBooth)
+* **Contributor 2* - *Initial work* - [Profile link](https://github.com/PurpleBooth)
+* **Contributor 3* - *Initial work* - [Profile link](https://github.com/PurpleBooth)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
