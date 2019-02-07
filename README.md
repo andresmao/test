@@ -37,18 +37,25 @@ pip install pyarrow
 pip install pandasglue
 ```
 
-## Usage example
+## Usage 
 
 **Read**
 
 To retrieve the result of an Athena Query in a Pandas DataFrame.
 
+Example:
+
 ```
 import pandas as pd
 import pandasglue as pg
 
+sql_query = "SELECT * FROM table_name" 
+db_name = "DB_NAME"
+s3_output_bucket = "s3://bucket-url/"
 
-df read_glue(customer_query,customer_db,customer_s3_output)
+df = read_glue(sql_query,db_name,s3_output_bucket)
+
+print(df)
 
 
 ```
