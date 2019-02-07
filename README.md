@@ -21,13 +21,9 @@ It could be used within [Lambda functions](https://docs.aws.amazon.com/lambda/la
 
 ### Prerequisites
 
-Mandatory
 ```
 pip install pandas
 pip install boto3
-```
-Recommended (to transform csv into parquet files as part of the ETL process)
-```
 pip install pyarrow 
 ```
 
