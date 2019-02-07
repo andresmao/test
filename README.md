@@ -7,7 +7,7 @@
 
 [Amazon Glue](https://aws.amazon.com/glue/) is an [AWS](https://aws.amazon.com/) simple, flexible, and cost-effective ETL service and [Pandas](https://pandas.pydata.org/) is a Python library which provides high-performance, easy-to-use data structures and data analysis tools.
 
-The goal of this package is help data engineers in the usage of cost efficient serverless compute services ([Lambda](https://aws.amazon.com/glue/), [Glue](https://aws.amazon.com/lambda/), [Athena](https://aws.amazon.com/athena/)) in order to provide an easy way to integrate Pandas with  AWS Glue,  allowing load the content of a DataFrame (**Write function**) directly in a table (parquet format) in the Glue Data Catalog and also execute Athena queries (**Read function**) returning the result directly in a Pandas DataFrame.
+The goal of this package is help data engineers in the usage of cost efficient serverless compute services ([Lambda](https://aws.amazon.com/glue/), [Glue](https://aws.amazon.com/lambda/), [Athena](https://aws.amazon.com/athena/)) in order to provide an easy way to integrate Pandas with  AWS Glue,  allowing load the content of a DataFrame (**Write function**) directly in a table (parquet format) in the [Glue Data Catalog](https://docs.aws.amazon.com/glue/latest/dg/populate-data-catalog.html) and also execute Athena queries (**Read function**) returning the result directly in a Pandas DataFrame.
 
 ## Use cases
 
