@@ -27,7 +27,7 @@ pip install boto3
 pip install pyarrow 
 ```
 
-### Installing
+### Installing the package
 
 ```
 pip install pandasglue
