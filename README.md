@@ -19,16 +19,16 @@ This package is recommended for ETL purposes which loads and transforms small to
 
 
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
+Mandatory
 ```
-Give examples
+pip install boto3
+```
+Recommended (to transform csv into parquet files as part of the ETL process)
+```
+pip install pyarrow 
 ```
 
 ### Installing
