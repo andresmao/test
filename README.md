@@ -37,14 +37,20 @@ pip install pyarrow
 pip install pandasglue
 ```
 
-## Usage
+## Usage example
 
 **Read**
 
-Explain what these tests test and why
+To retrieve the result of an Athena Query in a Pandas DataFrame.
 
 ```
-Give an example
+import pandas as pd
+import pandasglue as pg
+
+
+df read_glue(customer_query,customer_db,customer_s3_output)
+
+
 ```
 
 ### And coding style tests
