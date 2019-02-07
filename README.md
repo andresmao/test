@@ -49,7 +49,7 @@ Example:
 import pandas as pd
 import pandasglue as pg
 
-sql_query = "SELECT * FROM table_name" 
+sql_query = "SELECT * FROM table_name LIMIT 20" 
 db_name = "DB_NAME"
 s3_output_bucket = "s3://bucket-url/"
 
