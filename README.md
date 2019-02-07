@@ -101,6 +101,7 @@ pg.write_glue(df, database, table_name, s3_path, partition_cols=['city'])
 * [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) - (AWS) SDK for Python, which allows Python developers to write software that makes use of Amazon services like S3 and EC2.
 * [PyArrow](https://pypi.org/project/pyarrow/) - Python package to interoperate Arrow with Python allowing to convert text files format to parquet files among other functions.
 
+
 ## Examples on AWS services:
 
 Text here
