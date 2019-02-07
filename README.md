@@ -11,7 +11,7 @@ The goal of this package is to provide an easy way to integrate Pandas with the 
 
 ## Use cases
 
-This package is recommended for ETL purposes which loads and transforms small to medium size datasets without requiring to create Spark jobs, helping lowering infrastructure costs.
+This package is recommended for ETL purposes which loads and transforms small to medium size datasets without requiring to create Spark jobs, helping reduce infrastructure costs.
 
 It could be used within [Lambda functions](https://docs.aws.amazon.com/lambda/latest/dg/lambda-introduction-function.html)  or [Glue scripts](https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-python.html).
 
