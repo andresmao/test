@@ -47,6 +47,7 @@ Example:
 import pandas as pd
 import pandasglue as pg
 
+#Parameters
 sql_query = "SELECT * FROM table_name LIMIT 20" 
 db_name = "DB_NAME"
 s3_output_bucket = "s3://bucket-url/"
@@ -63,7 +64,27 @@ print(df)
 
 Convert a given Pandas Dataframe to a Glue Parquet table
 
-Example:
+```
+import pandas as pd
+import pandasglue as pg
+
+#Parameters
+sql_query = "SELECT * FROM table_name LIMIT 20" 
+db_name = "DB_NAME"
+s3_output_bucket = "s3://bucket-url/"
+
+#Sample DF
+source_data = {'first_name': ['Sarah', 'Angela', 'Know', 'Sara', 'Cat'], 
+        'last_name': ['Mornig', 'Jaker', 'Alom', 'Ormon', 'Koozer'],
+         'test_score': [82, 52, 56, 234, 254]}
+         
+df = pd.DataFrame(source_data, columns = ['first_name', 'last_name', 'test_score'])
+
+
+df = pg.write_glue(df, database, table, path, partition_cols=[]):
+
+print(df)
+```
 
 
 ### And coding style tests
