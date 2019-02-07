@@ -7,7 +7,7 @@
 
 [Amazon Glue](https://aws.amazon.com/glue/) is an [AWS](https://aws.amazon.com/) simple, flexible, and cost-effective ETL service and [Pandas](https://pandas.pydata.org/) is a Python library which provides high-performance, easy-to-use data structures and data analysis tools.
 
-The goal of this package is help in the usage of serverless compute services ([Lambda](https://aws.amazon.com/glue/), [Glue](https://aws.amazon.com/lambda/), [Athena](https://aws.amazon.com/athena/)) in order to provide an easy way to integrate Pandas with  AWS Glue,  allowing upload the content of a DataFrame (**Write function**) directly in a table (parquet format) in the Glue Data Catalog and also execute Athena queries (**Read function**) returning the result directly in a Pandas DataFrame.
+The goal of this package is help data engineers in the usage of cost efficient serverless compute services ([Lambda](https://aws.amazon.com/glue/), [Glue](https://aws.amazon.com/lambda/), [Athena](https://aws.amazon.com/athena/)) in order to provide an easy way to integrate Pandas with  AWS Glue,  allowing load the content of a DataFrame (**Write function**) directly in a table (parquet format) in the Glue Data Catalog and also execute Athena queries (**Read function**) returning the result directly in a Pandas DataFrame.
 
 ## Use cases
 
@@ -21,7 +21,7 @@ It could be used within [Lambda functions](https://docs.aws.amazon.com/lambda/la
 
 ### Prerequisites
 
-```python
+```
 pip install pandas
 pip install boto3
 pip install pyarrow 
@@ -29,7 +29,7 @@ pip install pyarrow
 
 ### Installing the package
 
-```python
+```
 pip install pandasglue
 ```
 
@@ -88,12 +88,16 @@ pg.write_glue(df, database, table_name, s3_path, partition_cols=['city'])
 
 
 ```
+# Parameters list:
+
+text here
+
 
 ## Built With
 
 * [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) - (AWS) SDK for Python, which allows Python developers to write software that makes use of Amazon services like S3 and EC2.
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [PyArrow](https://pypi.org/project/pyarrow/) - Python package to interoperate Arrow with Python allowing to convert text files format to parquet files among other functions.
+
 
 ## Contributing
 
