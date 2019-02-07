@@ -21,7 +21,7 @@ It could be used within [Lambda functions](https://docs.aws.amazon.com/lambda/la
 
 ### Prerequisites
 
-```
+```python
 pip install pandas
 pip install boto3
 pip install pyarrow 
@@ -29,7 +29,7 @@ pip install pyarrow
 
 ### Installing the package
 
-```
+```python
 pip install pandasglue
 ```
 
@@ -43,7 +43,7 @@ To retrieve the result of an Athena Query in a Pandas DataFrame.
 
 Quick example:
 
-```
+```python
 import pandas as pd
 import pandasglue as pg
 
@@ -66,7 +66,7 @@ Convert a given Pandas Dataframe to a Glue Parquet table
 
 Quick example:
 
-```
+```python
 import pandas as pd
 import pandasglue as pg
 
