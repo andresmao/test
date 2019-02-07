@@ -13,7 +13,7 @@ The goal of this package is to provide an easy way to integrate Pandas with the 
 
 This package is recommended for ETL purposes which loads and transforms small to medium size datasets without requiring to create Spark jobs. Lowering infrastructure costs.
 
-It could be used within [Lambda] (https://aws.amazon.com/lambda/) functions and [Glue scripts](https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-python.html).
+It could be used within [Lambda](https://aws.amazon.com/lambda/) functions and [Glue scripts](https://docs.aws.amazon.com/glue/latest/dg/aws-glue-programming-python.html).
 
 <p align="center">
   <img src="https://github.com/andresmao/test/blob/master/PandasGlue_ETL_workflow.png" width="700"  title="ETL Workflow">
