@@ -53,7 +53,7 @@ sql_query = "SELECT * FROM table_name"
 db_name = "DB_NAME"
 s3_output_bucket = "s3://bucket-url/"
 
-df = read_glue(sql_query,db_name,s3_output_bucket)
+df = pg.read_glue(sql_query,db_name,s3_output_bucket)
 
 print(df)
 
