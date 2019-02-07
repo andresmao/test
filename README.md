@@ -39,7 +39,7 @@ pip install pandasglue
 
 ## Usage 
 
-**Read**
+**Read read_glue()**
 
 To retrieve the result of an Athena Query in a Pandas DataFrame.
 
@@ -57,8 +57,13 @@ df = pg.read_glue(sql_query,db_name,s3_output_bucket)
 
 print(df)
 
-
 ```
+
+**Write**
+
+To save 
+Example:
+
 
 ### And coding style tests
 
